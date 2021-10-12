@@ -1,0 +1,2 @@
+# mihoyoAutoExchange
+使用腾讯云函数部署的米游社原石兑换脚本
