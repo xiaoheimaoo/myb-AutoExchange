@@ -20,7 +20,7 @@
 创建触发器，选择定时触发，触发周期选择自定义，填写cron表达式</br>
 最终兑换结果是否成功可以在云函数日志里面查询，会玩的可以配合一些qq机器人把结果发送到你的qq上</br>
 ## cron表达式
-示例：15 07 16 12 10 * 2022 表示2022年10月12日16时07分15秒执行脚本。</br>
+示例：`15 07 16 12 10 * 2022` 表示2022年10月12日16时07分15秒执行脚本。</br>
 ## 拓展
 下图是我配合[go-cqhttp](https://github.com/Mrs4s/go-cqhttp)做的把结果通知到QQ</br>
 <img src="https://user-images.githubusercontent.com/75831884/138081549-f2773a4b-de5c-46e3-85ec-6d3ae0f1ae0e.png" width="500" height="300"></br>
