@@ -24,3 +24,4 @@
 ## 拓展
 下图是我配合[go-cqhttp](https://github.com/Mrs4s/go-cqhttp)做的把结果通知到QQ</br>
 <img src="https://user-images.githubusercontent.com/75831884/138081549-f2773a4b-de5c-46e3-85ec-6d3ae0f1ae0e.png" width="500" height="300"></br>
+<img src="https://user-images.githubusercontent.com/75831884/140050554-6f9b16b2-e49a-43e3-9597-6fa00eabb278.png" width="500" height="300"></br>
