@@ -15,13 +15,13 @@
 <img src="https://user-images.githubusercontent.com/75831884/139518903-f1c66a25-5804-4d4d-b5e4-f79702e0366f.png" width="500" height="300"></br>
 <img src="https://user-images.githubusercontent.com/75831884/139518912-2a413744-96d9-4ad7-b098-19d74351ebcf.png" width="500" height="300"></br>
 <img src="https://user-images.githubusercontent.com/75831884/139518934-74b9cd3c-ab6f-4e13-a1bd-e91af125709b.png" width="500" height="300"></br>
-最后点击完成，执行时间尽可能选择开始时间前的30即可，脚本每次执行60秒</br>
+最后点击完成，执行时间尽可能选择开始时间前的30秒即可，脚本每次执行60秒</br>
 商品id可以通过抓包获取，如果只为了领原石，默认的商品id即可</br>
 创建触发器，选择定时触发，触发周期选择自定义，填写cron表达式</br>
 最终兑换结果是否成功可以在云函数日志里面查询，会玩的可以配合一些qq机器人把结果发送到你的qq上</br>
 ## cron表达式
 示例：`15 07 16 12 10 * 2022` 表示2022年10月12日16时07分15秒执行脚本。</br>
 ## 拓展
-下图是我配合[go-cqhttp](https://github.com/Mrs4s/go-cqhttp)做的把结果通知到QQ</br>
+可以配合[go-cqhttp](https://github.com/Mrs4s/go-cqhttp)把结果通知到QQ（需要自己实现代码）</br>
 <img src="https://user-images.githubusercontent.com/75831884/138081549-f2773a4b-de5c-46e3-85ec-6d3ae0f1ae0e.png" width="500" height="300"></br>
 <img src="https://user-images.githubusercontent.com/75831884/140050554-6f9b16b2-e49a-43e3-9597-6fa00eabb278.png" width="500" height="100"></br>
