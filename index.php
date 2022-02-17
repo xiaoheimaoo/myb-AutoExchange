@@ -1,7 +1,7 @@
 <?php
 function main_handler($event, $context) {
     //商品id（原石*60的商品，目前仅支持原神分类下的虚拟商品。）
-    $GLOBALS['goods_id'] = "2022010412245";
+    $GLOBALS['goods_id'] = "2022021512381";
     //游戏内的uid
     $GLOBALS['uid'] = "";
     //米游社cookie
