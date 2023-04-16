@@ -1,7 +1,7 @@
 <?php
 function main_handler($event, $context) {
-    //商品id（60原石商品id=2022120612887）（150原石商品id=2022120612797）
-    $GLOBALS['goods_id'] = "2022120612887";
+    //商品id（60原石商品id=2023040312340）（150原石商品id=2023040312589）
+    $GLOBALS['goods_id'] = "2023040312340";
     //游戏内的uid
     $GLOBALS['uid'] = "";
     //米游社cookie
